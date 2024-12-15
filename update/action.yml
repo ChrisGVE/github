@@ -9,7 +9,7 @@ runs:
     - uses: chrisgve/github/neovim@main
     - uses: actions/checkout@v4
       with:
-        repository: "folke/github"
+        repository: "chrisgve/github"
         path: update
     - name: Update Repo
       shell: bash
