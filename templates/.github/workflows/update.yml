@@ -8,6 +8,6 @@ on:
 
 jobs:
   update:
-    if: contains(fromJSON('["folke", "LazyVim"]'), github.repository_owner)
-    uses: folke/github/.github/workflows/update.yml@main
+    if: contains(fromJSON('chrisgve'), github.repository_owner)
+    uses: chrisgve/github/.github/workflows/update.yml@main
     secrets: inherit

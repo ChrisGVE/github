@@ -6,6 +6,6 @@ on:
 
 jobs:
   stale:
-    if: contains(fromJSON('["folke", "LazyVim"]'), github.repository_owner)
-    uses: folke/github/.github/workflows/stale.yml@main
+    if: contains(fromJSON('chrisgve'), github.repository_owner)
+    uses: chrisgve/github/.github/workflows/stale.yml@main
     secrets: inherit
